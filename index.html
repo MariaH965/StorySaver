@@ -6,89 +6,176 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="newstyles.css">
-    
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="ResetStyle.css">
+
     </head>
+    
     <body>
-        <header>
-            <img class="logo" src="Screenshot 2023-07-22 at 11.30.31 AM.png" width=150px height=150px alt="logo">
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="#"> Read </a></li>
-                    <li><a href="#"> Blog </a></li>
-                    <li><a href="#"> About </a></li>
-                </ul>
-            </nav>
-            <a class="cta" href="#"><button>Write</button></a>
-        </header>
+        <div class="container"> <!--Making it work on diff browsers-->
+            <div class="top-page">
+            <header> <!--Working on the top of the landing page-->
+                    <nav class="navbar">
+                        <div class="navigate"> 
+                            <a href="index.html"> <img class="logo" src="Screenshot_2023-07-22_at_11.30.31_AM-removebg-preview.png" width=250px height=350px alt="logo"> </a>
+                        <ul>
+                            <li><a href="index.html"> Home </a></li>
+                            <li><a href="about.html"> About </a></li>
+                            <li><a href="read.html"> Read </a></li>
+                            <li><a href="blog.html"> Blog </a></li>
+                            <li><a href="write.html">Write</a></li>
+                        </ul>
+                        </div>
+                    </nav>
+            </header>
+            </div>
 
-        <h2 class="Scroll-title"><strong>Up & Coming: </strong> </h2>
+        <section class="Home-All">
 
-    <div class="Books">
-        <div class="Page">
-            <img src="pexels-erik-mclean-7809122.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_1: Story </p>
-         </div>
+            <div class="Home-Content">
 
-         <div class="Page">
-            <img src="pexels-mikhail-nilov-7672879.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_2: Story </p>
+                <section class="home-story">
+
+                    <p class="story-type">So...What's The Story?</p>
+
+                    <p class="diatribe"> Welcome to Story Saver! Where ideas come to life. A combination blog and writing platform [one day, fingers crossed]. Story Saver is where your your dead ideas come to life, through the power of collabaration! Leave whole novels for others to expand on, or just a few plot points for others to create a world around. Just about anything is welcome, and we'd love to hear it! </p>
+    
+                    
+                    <button class="write-btn"><a href="write.html">Write</a></button>
+    
+                    <br>
+    
+                    <br>
+    
+    
+                </section>
+
+                <section class="Quote"> 
+
+                    <p class="plot-p1"> What is Plot?</p>
+
+                    <iframe class="embed-blog" src="https://writers.com/what-is-the-plot-of-a-story" style="width: 100%; height: 400px; border: none;" title="What is Plot?"> To Start Off</iframe>
+    
+                </section>
+    
+                <br>
+    
+                </div> <!-- Div end for home content-->
+    
+            </section>
+
+            <br>
+    
+
+            <section class="Story-cards-carousel">
+
+                <h2 class="header-carousel">
+                    
+                    Recently Updated... 
+
+                </h2>
+
+                <br>
+
+            <div class="Story-All">
+
+                <div class="story-card">
+
+                    <div class="story-card-inner">
+
+                      <div class="story-card-front">
+                        <img src="pexels-ferdinand-studio-3922102.jpg" alt="Avatar" style="width:200px;height:300px;">
+                      </div>
+                      <div class="story-card-back">
+                        <h2>Filler_1-Fantasy & Adventure</h2> 
+                        <p> A story that is sure to Rivet!</p>
+                        
+                        <button class="rd-btn"><a href="read.html">Read</a></button>
+                      </div>
+
+                    </div>
+
+                  </div> <!--Story card 1 - end -->
+
+                <div class="story-card">
+                    <div class="story-card-inner">
+                        <div class="story-card-front">
+                            <img src="pexels-ron-lach-8262600.jpg" alt="Avatar" style="width:200px;height:300px;">
+                        </div>
+                        <div class="story-card-back">
+                            <h2>Filler_2-Fantasy & Adventure</h2> 
+                             <p> A story that is sure to Rivet!</p>
+
+                             <button class="rd-btn"><a href="read.html">Read</a></button>
+                        </div>
+                    </div>
+                </div> <!--Story card 2 - end -->
+
+                <div class="story-card">
+                    <div class="story-card-inner">
+                        <div class="story-card-front">
+                            <img src="pexels-elina-fairytale-3811010.jpg" alt="Avatar" style="width:200px;height:300px;">
+                        </div>
+                        <div class="story-card-back">
+                            <h2>Filler_3-Fantasy & Adventure</h2> 
+                             <p> A story that is sure to Rivet!</p>
+
+                             <button class="rd-btn"><a href="read.html">Read</a></button>
+                        </div>
+                    </div>
+                </div> <!--Story card 3 - end -->
+
+                <div class="story-card">
+                    <div class="story-card-inner">
+                        <div class="story-card-front">
+                            <img src="pexels-rfstudio-3817675.jpg" alt="Avatar" style="width:200px;height:300px;">
+                        </div>
+                        <div class="story-card-back">
+                            <h2>Filler_4-Fantasy & Adventure</h2> 
+                             <p> A story that is sure to Rivet!</p>
+
+                             <button class="rd-btn"><a href="read.html">Read</a></button>
+                        </div>
+                    </div>
+                </div> <!--Story card 4 - end -->
+
+                <div class="story-card">
+                    <div class="story-card-inner">
+                        <div class="story-card-front">
+                            <img src="pexels-bruno-thethe-1910231.jpg" alt="Avatar" style="width:200px;height:300px;">
+                        </div>
+                        <div class="story-card-back">
+                            <h2>Filler_6-Fantasy & Adventure</h2> 
+                             <p> A story that is sure to Rivet!</p>
+
+                             <button class="rd-btn"><a href="read.html">Read</a></button>
+                        </div>
+                    </div>
+                </div> <!--Story card 6 - end -->
+
+                <div class="story-card">
+                    <div class="story-card-inner">
+                        <div class="story-card-front">
+                            <img src="pexels-cottonbro-studio-7180665.jpg" alt="Avatar" style="width:200px;height:300px;">
+                        </div>
+                        <div class="story-card-back">
+                            <h2>Filler_7-Fantasy & Adventure</h2> 
+                             <p> A story that is sure to Rivet!</p>
+
+                             <button class="rd-btn"><a href="read.html">Read</a></button>
+                        </div>
+                    </div>
+                </div> <!--Story card 7 - end -->
+
+            </div>  <!-- Div end for story cards all content-->
+            
+        
+            </section>
+
+
+        
+        
         </div>
-
-        <div class="Page">
-            <img src="pexels-mikhail-nilov-7660835.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_3: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-cottonbro-studio-7180657.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_4: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-rdne-stock-project-8474524.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_5: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-ferdinand-studio-3922102.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_6: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-athena-1760459.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_7: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-bruno-thethe-1910231.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_8: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-engin-akyurt-1461013.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_9: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-rfstudio-3817675.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_10: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-elina-fairytale-3811010.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_11: Story </p>
-        </div>
-
-        <div class="Page">
-            <img src="pexels-ron-lach-8262600.jpg" width=150px height=250px alt="">
-            <p class="titles"> Filler_12: Story </p>
-        </div>
-
-    </div>
-
-
-
         <script src="" async defer></script>
     </body>
 </html>

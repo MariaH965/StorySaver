@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="ResetStyle.css">
 
     </head>
+
     
     <body>
         <div class="container"> <!--Making it work on diff browsers-->
@@ -22,13 +23,63 @@
                             <li><a href="index.html"> Home </a></li>
                             <li><a href="about.html"> About </a></li>
                             <li><a href="read.html"> Read </a></li>
-                            <li><a href="blog.html"> Blog </a></li>
-                            <li><a href="write.html">Write</a></li>
+                            <li><a href="write.html"> Write </a></li>
                         </ul>
                         </div>
                     </nav>
             </header>
             </div>
+            
+            <script type="text/javascript" src="/richtexteditor/rte.js"></script>
+            <script type="text/javascript" src='/richtexteditor/plugins/all_plugins.js'></script>
+            
+            <div id="div_editor1">
+                <p>This is a default toolbar demo of Rich text editor.</p>
+            </div>
+            
+            <script>
+            var editor1 = new RichTextEditor("#div_editor1");
+            //editor1.setHTMLCode("Use inline HTML or setHTMLCode to init the default content.");
+            </script>
+
+            <footer> 
+
+                <ul>
+
+                <li>
+                     Story Saver
+                </li>
+
+                <br>
+
+                <li> 
+                    Mariam Hatmi
+                </li>
+
+                <br>
+
+                <li>
+                    Final Project
+                </li>
+
+                <br>
+
+                <li>
+                    George Mason University 
+                </li>
+
+                <br>
+
+                <li>
+                    ENGH 375 - Web Authoring & Design 
+                </li>
+
+                 </ul>
+
+
+
+            </footer>
+
         </div>
         <script src="" async defer></script>
     </body>

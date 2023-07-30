@@ -12,13 +12,23 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+/* full page formatting - more or less */ 
+
 .container{
     padding: 2%;
     margin-top: 0%;
     margin-left: 2%;
     margin-right: 2%;
     overflow: hidden;
+    justify-content: center;
 }
+
+/* Navigation Bar - Links*/ 
 
 .navbar{
     font-family: "Roboto Condensed", sans-serif;
@@ -32,7 +42,7 @@
 }
 
 li {
-    font-size: 700;
+    font-size: 1.8vw;
     list-style: none; 
     display: inline-block;
 }
@@ -66,20 +76,16 @@ button{
     color: rgb(199, 15, 135);
 }
 
-.write-btn a:hover{
-    color: rgb(199, 15, 135);
-}
+/* Story Cards */ 
 
 .header-carousel{
     padding: 2%;
     font-family: 'Lobster', cursive;
-    font-size: 55px;
-    justify-content: center;
+    font-size: 5vw;
     margin-left: 5px;
     margin-bottom: 3%;
     color: rgb(0, 0, 0);
 }
-/* Story Card CAROUSEL */ 
 
 .Story-All{
     width: fit-content;
@@ -95,14 +101,13 @@ button{
 width: 0%;
 }
 
-/* Section Write */ 
+/* Home Content - Section Write */ 
 
 .home-story{
     background-color: rgb(190, 255, 255);
     padding: 22%;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
 }
-
 
 .diatribe{
     font-family: "Roboto Condensed", sans-serif;
@@ -119,27 +124,10 @@ width: 0%;
     text-align: justify;
 }
 
-.plot-p1{
+/* write button for whats the story section */ 
 
-    padding: 2%;
-    font-family: 'Lobster', cursive;
-    font-size: 55px;
-    justify-content: center;
-    display: flex;
-    color: rgb(0, 0, 0);
-
-}
-
-.story-type{
-    position: absolute;
-    top: auto;
-    margin-top: -16%;
-    left: 10%;
-    font-family: 'Lobster', cursive;
-    font-style: oblique;
-    font-size: 60px;
-    color: rgb(0, 0, 0);
-    background-color: transparent;
+.write-btn a:hover{
+    color: rgb(199, 15, 135);
 }
 
 .write-btn{
@@ -148,9 +136,236 @@ width: 0%;
     position: absolute;
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2.2vw;
     color: rgb(111,31,166);
 }
+
+/* Whats plot - format */ 
+
+.plot-p1{
+
+    padding: 3%;
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+    display: flex;
+    color: rgb(0, 0, 0);
+
+}
+
+/* Home write button header - whats your story */ 
+
+.story-type{
+    position: absolute;
+    top: auto;
+    margin-top: -16%;
+    left: 10%;
+    font-family: 'Lobster', cursive;
+    font-style: oblique;
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+/* About Section - header */ 
+
+.title-about{
+    margin-top: -4%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    left: 11%;
+    font-family: 'Lobster', cursive;
+    font-style: oblique;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+.first-contact{
+    font-family: "Roboto Condensed", sans-serif;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    left: 12%;
+    line-height: 1.5;
+    margin-top: 1%;
+    align-self: center;
+    word-spacing: 3%;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+
+  /* Mayhem - Book 1 */
+
+  .mayhem-top{
+    font-weight: bold;
+    display: flex;
+    font-style: italic;
+    margin-bottom: 2%;
+
+  }
+
+  .mayhem1{
+    font-family: "Roboto Condensed", sans-serif;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    line-height: 1.5;
+    margin-top: 1%;
+    align-self: center;
+    word-spacing: 3%;
+    font-size: 2.0vw;
+    text-align: justify;
+    line-height: normal;
+    word-spacing: 3%;
+ }
+
+  /* Fiza - Book 2 */
+
+  .fiza-top{
+    font-weight: bold;
+    display: flex;
+    font-style: italic;
+    margin-bottom: 2%;
+
+  }
+
+  .fiza1{
+    font-family: "Roboto Condensed", sans-serif;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    line-height: 1.5;
+    margin-top: 1%;
+    align-self: center;
+    word-spacing: 3%;
+    font-size: 2.0vw;
+    text-align: justify;
+    line-height: normal;
+    word-spacing: 3%;
+ }
+
+ /* liberte - Book 3*/
+
+ .libe-top{
+    font-weight: bold;
+    display: flex;
+    font-style: italic;
+    margin-bottom: 2%;
+
+  }
+
+  .libe1{
+    font-family: "Roboto Condensed", sans-serif;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    line-height: 1.5;
+    margin-top: 1%;
+    align-self: center;
+    word-spacing: 3%;
+    font-size: 2.0vw;
+    text-align: justify;
+    line-height: normal;
+    word-spacing: 3%;
+ }
+
+  /* Memoria - Book 4*/
+.mem-top{
+    font-weight: bold;
+    display: flex;
+    font-style: italic;
+    margin-bottom: 2%;
+
+  }
+
+  .mem1{
+    font-family: "Roboto Condensed", sans-serif;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    line-height: 1.5;
+    margin-top: 1%;
+    align-self: center;
+    word-spacing: 3%;
+    font-size: 2.0vw;
+    text-align: justify;
+    line-height: normal;
+    word-spacing: 3%;
+ }
+
+ /* Pupa - Book 5*/
+
+ .pupa-top{
+    font-weight: bold;
+    display: flex;
+    font-style: italic;
+    margin-bottom: 2%;
+
+  }
+
+  .pupa1{
+    font-family: "Roboto Condensed", sans-serif;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    line-height: 1.5;
+    margin-top: 1%;
+    align-self: center;
+    word-spacing: 3%;
+    font-size: 2.0vw;
+    text-align: justify;
+    line-height: normal;
+    word-spacing: 3%;
+ }
+
+
+ /* my alien romance - Book 7*/
+
+ .alien-top{
+    font-weight: bold;
+    display: flex;
+    font-style: italic;
+    margin-bottom: 2%;
+
+  }
+
+  .alien1{
+    font-family: "Roboto Condensed", sans-serif;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    line-height: 1.5;
+    margin-top: 1%;
+    align-self: center;
+    word-spacing: 3%;
+    font-size: 2.0vw;
+    text-align: justify;
+    line-height: normal;
+    word-spacing: 3%;
+ }
+
+
+
+
+footer {
+    margin-bottom: 100%;
+
+}
+
+
 
 
 /* FLIP CARD ANIMATION FRONT PAGE  - referenced code: https://codepen.io/edeesims/pen/wvpYWW. & https://www.w3schools.com/howto/howto_css_flip_card.asp*/
@@ -196,9 +411,13 @@ width: 0%;
   .story-card-back {
     background-color: rgb(255, 255, 255);
     padding: 5px;
-    color: white;
+    text-align: center;
+    color: rgb(0, 0, 0);
     transform: rotateY(180deg);
   }
+
+  /* Flipcard animation end */ 
+
 	
  /* Parts of Boilerplate CSS from: https://thenewcode.com/441/HTML5-CSS-Boilerplate  */ 
 
@@ -251,3 +470,5 @@ input[type="submit"] {
 sub, sup { 
 	line-height: 0;
 }
+
+/* Parts of Boilerplate CSS from: https://thenewcode.com/441/HTML5-CSS-Boilerplate  */ 
